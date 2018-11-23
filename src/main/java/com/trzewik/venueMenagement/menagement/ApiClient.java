@@ -1,4 +1,4 @@
-package com.trzewik.venue.menagement.menagement;
+package com.trzewik.venueMenagement.menagement;
 
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;

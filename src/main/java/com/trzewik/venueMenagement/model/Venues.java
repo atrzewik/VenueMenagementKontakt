@@ -1,20 +1,20 @@
-package com.trzewik.venue.menagement.model;
+package com.trzewik.venueMenagement.model;
 
-import com.trzewik.venue.menagement.model.venue.SearchMeta;
-import com.trzewik.venue.menagement.model.venue.VenueItems;
+import com.trzewik.venueMenagement.model.venue.SearchMeta;
+import com.trzewik.venueMenagement.model.venue.VenueItem;
 
 import java.util.List;
 
 public class Venues {
 
-    private List<VenueItems> venues;
+    private List<VenueItem> venues;
     private SearchMeta searchMeta;
 
-    public List<VenueItems> getVenues() {
+    public List<VenueItem> getVenues() {
         return venues;
     }
 
-    public void setVenues(List<VenueItems> venues) {
+    public void setVenues(List<VenueItem> venues) {
         this.venues = venues;
     }
 

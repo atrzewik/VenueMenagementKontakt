@@ -1,4 +1,4 @@
-package com.trzewik.venue.menagement.inputProvider;
+package com.trzewik.venueMenagement.inputProvider;
 
 import java.util.MissingFormatArgumentException;
 

@@ -1,4 +1,4 @@
-package com.trzewik.venue.menagement.model.venue.venueItems;
+package com.trzewik.venueMenagement.model.venue.venueItems;
 
 public class Metadata {
 

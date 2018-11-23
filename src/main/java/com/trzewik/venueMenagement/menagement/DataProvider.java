@@ -1,4 +1,4 @@
-package com.trzewik.venue.menagement.menagement;
+package com.trzewik.venueMenagement.menagement;
 
 
 public class DataProvider {

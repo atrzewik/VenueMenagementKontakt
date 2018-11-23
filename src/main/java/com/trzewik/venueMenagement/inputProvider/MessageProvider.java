@@ -1,8 +1,8 @@
-package com.trzewik.venue.menagement.inputProvider;
+package com.trzewik.venueMenagement.inputProvider;
 
 public class MessageProvider {
 
-    public static String askAboutActivity = "Please choose venue activity such as get, get1, create, delete: ";
+    public static String askAboutActivity = "Please choose venue activity such as get_all, get, create, delete: ";
 
     public static String askAboutIndexActivity = "Please choose activity with index from 0 to ";
 

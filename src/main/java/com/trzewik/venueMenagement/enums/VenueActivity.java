@@ -1,8 +1,8 @@
-package com.trzewik.venue.menagement.enums;
+package com.trzewik.venueMenagement.enums;
 
 public enum VenueActivity {
+    GET_ALL,
     GET,
-    GET1,
     CREATE,
     DELETE;
 

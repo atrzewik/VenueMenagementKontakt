@@ -1,12 +1,12 @@
-package com.trzewik.venue.menagement.model.venue;
+package com.trzewik.venueMenagement.model.venue;
 
-import com.trzewik.venue.menagement.model.venue.venueItems.Metadata;
-import com.trzewik.venue.menagement.model.venue.venueItems.Shares;
+import com.trzewik.venueMenagement.model.venue.venueItems.Metadata;
+import com.trzewik.venueMenagement.model.venue.venueItems.Shares;
 
 import java.math.BigDecimal;
 import java.util.List;
 
-public class VenueItems {
+public class VenueItem {
 
     private String image;
     private Metadata metadata;

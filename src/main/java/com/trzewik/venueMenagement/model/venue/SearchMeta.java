@@ -1,4 +1,4 @@
-package com.trzewik.venue.menagement.model.venue;
+package com.trzewik.venueMenagement.model.venue;
 
 public class SearchMeta {
 

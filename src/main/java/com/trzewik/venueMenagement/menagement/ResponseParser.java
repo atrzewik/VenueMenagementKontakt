@@ -1,9 +1,9 @@
-package com.trzewik.venue.menagement.menagement;
+package com.trzewik.venueMenagement.menagement;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mashape.unirest.http.exceptions.UnirestException;
-import com.trzewik.venue.menagement.model.Venues;
-import com.trzewik.venue.menagement.model.venue.VenueItems;
+import com.trzewik.venueMenagement.model.Venues;
+import com.trzewik.venueMenagement.model.venue.VenueItem;
 
 import java.io.IOException;
 
@@ -19,7 +19,7 @@ public class ResponseParser {
         return this.mapper.readValue(ApiClient.getKontaktResponseBody(), Venues.class);
     }
 
-    public VenueItems venueResponseParser() throws UnirestException, IOException {
-        return this.mapper.readValue(ApiClient.getKontaktResponseBody(), VenueItems.class);
+    public VenueItem venueResponseParser() throws UnirestException, IOException {
+        return this.mapper.readValue(ApiClient.getKontaktResponseBody(), VenueItem.class);
     }
 }

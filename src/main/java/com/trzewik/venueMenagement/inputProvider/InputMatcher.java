@@ -1,6 +1,6 @@
-package com.trzewik.venue.menagement.inputProvider;
+package com.trzewik.venueMenagement.inputProvider;
 
-import com.trzewik.venue.menagement.enums.VenueActivity;
+import com.trzewik.venueMenagement.enums.VenueActivity;
 
 import java.util.Scanner;
 
